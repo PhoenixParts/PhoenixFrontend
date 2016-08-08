@@ -7,6 +7,11 @@ module.exports = function(defaults) {
     // Add options here
   });
 
+  app.import('bower_components/Bootflat/bootflat/css/bootflat.min.css');
+  app.import('bower_components/Bootflat/bootflat/js/icheck.min.js');
+  app.import('bower_components/Bootflat/bootflat/js/jquery.fs.stepper.min.js');
+  app.import('bower_components/Bootflat/bootflat/js/jquery.fs.selecter.min.js');
+
   // Use `app.import` to add additional libraries to the generated
   // output files.
   //
